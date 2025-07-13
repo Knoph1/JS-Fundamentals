@@ -59,3 +59,20 @@ function add(a, b) {
 const a = parseInt(process.argv[2]);
 const b = parseInt(process.argv[3]);
 console.log(add(a, b));
+
+// 10-factorial.js
+#!/usr/bin/node
+
+const arg = Number(process.argv[2]);
+
+function factorial(n) {
+  if (isNaN(n) || n < 0) {
+    return 1;
+  }
+  if (n === 0 || n === 1) {
+    return 1;
+  }
+  return n * factorial(n - 1);
+}
+
+console.log(factorial(arg));
