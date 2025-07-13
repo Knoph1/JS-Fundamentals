@@ -19,3 +19,8 @@ if (args2.length === 0) {
 const arg3 = process.argv[2];
 console.log(arg3 !== undefined ? arg3 : "No argument");
 
+// 4-concat.js
+const arg4_1 = process.argv[2];
+const arg4_2 = process.argv[3];
+console.log(`${arg4_1} is ${arg4_2}`);
+
