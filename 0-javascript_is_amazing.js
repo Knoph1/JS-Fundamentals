@@ -32,3 +32,13 @@ console.log(isNaN(arg5) ? "Not a number" : `My number: ${arg5}`);
 const langs = ["C is fun", "Python is cool", "JavaScript is amazing"];
 for (const lang of langs) console.log(lang);
 
+// 7-multi_c.js
+const x = parseInt(process.argv[2]);
+if (isNaN(x)) {
+  console.log("Missing number of occurrences");
+} else {
+  for (let i = 0; i < x; i++) {
+    console.log("C is fun");
+  }
+}
+
