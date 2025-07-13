@@ -24,3 +24,7 @@ const arg4_1 = process.argv[2];
 const arg4_2 = process.argv[3];
 console.log(`${arg4_1} is ${arg4_2}`);
 
+// 5-to_integer.js
+const arg5 = parseInt(process.argv[2]);
+console.log(isNaN(arg5) ? "Not a number" : `My number: ${arg5}`);
+
