@@ -28,3 +28,7 @@ console.log(`${arg4_1} is ${arg4_2}`);
 const arg5 = parseInt(process.argv[2]);
 console.log(isNaN(arg5) ? "Not a number" : `My number: ${arg5}`);
 
+// 6-multi_languages_loop.js
+const langs = ["C is fun", "Python is cool", "JavaScript is amazing"];
+for (const lang of langs) console.log(lang);
+
