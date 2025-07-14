@@ -32,3 +32,5 @@ All scripts are intended to be run using Node.js in a command-line environment.
 ```bash
 git clone https://github.com/Knoph1/JS-Fundamentals.git
 cd JS-Fundamentals
+
+---
